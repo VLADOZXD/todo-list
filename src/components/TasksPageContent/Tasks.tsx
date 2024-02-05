@@ -35,7 +35,7 @@ const Tasks = ({ fetchedTasks }: TasksProps) => {
           ))}
         </ul>
       ) : (
-        <div className="text-center w-96 text-gray-400 text-lg font-medium">
+        <div className="text-center w-96 max-[520px]:w-56 text-gray-400 text-lg font-medium">
           Not a tasks yet
         </div>
       )}
